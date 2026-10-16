@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Admin User",
+      "email": "admin@ivans.com",
+      "passwordHash": "$2b$10$3B7Ann/hVrf44mvtC1muzu3FRpePhnAfu.YRBQSG.cmoQsVtsY0z.",
+      "role": "admin",
+      "branch": "Nairobi CBD"
+    }
+  ],
+  "branches": [
+    {
+      "id": "branch-nairobi",
+      "name": "Nairobi CBD",
+      "city": "Nairobi",
+      "status": "active"
+    },
+    {
+      "id": "branch-westlands",
+      "name": "Westlands",
+      "city": "Nairobi",
+      "status": "active"
+    },
+    {
+      "id": "branch-mombasa",
+      "name": "Mombasa",
+      "city": "Mombasa",
+      "status": "active"
+    },
+    {
+      "id": "branch-kisumu",
+      "name": "Kisumu",
+      "city": "Kisumu",
+      "status": "active"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Rice 5kg",
+      "category": "Groceries",
+      "price": 850,
+      "stock": 42,
+      "reorderLevel": 30
+    },
+    {
+      "id": 2,
+      "name": "Cooking Oil 2L",
+      "category": "Groceries",
+      "price": 520,
+      "stock": 18,
+      "reorderLevel": 25
+    },
+    {
+      "id": 3,
+      "name": "Biscuits Family Pack",
+      "category": "Snacks",
+      "price": 280,
+      "stock": 27,
+      "reorderLevel": 20
+    },
+    {
+      "id": 4,
+      "name": "Battery AA 4 Pack",
+      "category": "Household",
+      "price": 640,
+      "stock": 15,
+      "reorderLevel": 20
+    },
+    {
+      "id": 5,
+      "name": "Laundry Detergent",
+      "category": "Household",
+      "price": 490,
+      "stock": 24,
+      "reorderLevel": 20
+    },
+    {
+      "id": 6,
+      "name": "Orange Juice 1L",
+      "category": "Beverages",
+      "price": 240,
+      "stock": 36,
+      "reorderLevel": 25
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-001",
+      "branch": "Nairobi CBD",
+      "customer": "Mary Wanjiku",
+      "paymentMethod": "Mpesa",
+      "items": [
+        {
+          "id": 1,
+          "name": "Premium Rice 5kg",
+          "qty": 2,
+          "price": 850
+        },
+        {
+          "id": 2,
+          "name": "Cooking Oil 2L",
+          "qty": 1,
+          "price": 520
+        }
+      ],
+      "subtotal": 2220,
+      "discount": 178,
+      "tax": 356,
+      "total": 2398,
+      "createdAt": "2026-10-12T12:46:54.752Z"
+    },
+    {
+      "id": "txn-002",
+      "branch": "Nairobi CBD",
+      "customer": "John Otieno",
+      "paymentMethod": "Cash",
+      "items": [
+        {
+          "id": 3,
+          "name": "Biscuits Family Pack",
+          "qty": 3,
+          "price": 280
+        }
+      ],
+      "subtotal": 840,
+      "discount": 67,
+      "tax": 134,
+      "total": 907,
+      "createdAt": "2026-10-12T11:46:54.759Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "d6a546b1-c1d7-4be2-b51d-7e98dc0f5375",
+      "userId": "user-admin",
+      "createdAt": "2026-10-12T12:53:03.410Z"
+    }
+  ]
+}

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Login",
-  description: "Simple login page",
+  title: "Checonex Retail Operations",
+  description: "Point of sale, inventory, and branch reporting for Checonex Supermarket.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
