@@ -48,3 +48,4 @@ If your previous POS installation used `data/store.json`, set `POS_IMPORT_LEGACY
 ## Deployment
 
 Configure the same database and bootstrap-admin environment variables in the deployment environment. The database host must be reachable by the Next.js server. Do not expose database credentials in client-side variables or commit `.env.local`.
+
